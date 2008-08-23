@@ -1,0 +1,10 @@
+Localizer.4.0.resharper.user
+Localizer.4.0.resharper
+
+_ReSharper.Localizer
+
+**/bin
+**/obj
+*.suo
+*.user
+*sln.cache

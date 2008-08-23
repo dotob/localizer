@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="receiverHeaderMutli" xml:space="preserve">
+    <value>Empfänger in {0}</value>
+    <comment>{0} - receiver name </comment>
+  </data>
+  <data name="receiverHeaderSingle" xml:space="preserve">
+    <value>Empfänger</value>
+  </data>
+  <data name="receiverDeleteQuestion" xml:space="preserve">
+    <value>Möchten Sie den Empfänger {0} wirklich löschen?</value>
+    <comment>{0} - receiver name</comment>
+  </data>
+  <data name="receiverDeleteMsgBoxHeader" xml:space="preserve">
+    <value>Empfänger löschen</value>
+  </data>
+  <data name="contactHeaderMulti" xml:space="preserve">
+    <value>Kontakte in {0}</value>
+    <comment>{0} - contact name</comment>
+  </data>
+  <data name="contactHeaderSingle" xml:space="preserve">
+    <value>Kontakt</value>
+  </data>
+  <data name="technicianHeaderMulti" xml:space="preserve">
+    <value>Techniker in {0}</value>
+    <comment>{0} - technician name</comment>
+  </data>
+  <data name="technicianHeaderSingle" xml:space="preserve">
+    <value>Techniker</value>
+  </data>
+  <data name="newTechnician" xml:space="preserve">
+    <value>Neuer Techniker</value>
+  </data>
+  <data name="editTechnician" xml:space="preserve">
+    <value>Techniker bearbeiten</value>
+  </data>
+  <data name="newTechnicianLong" xml:space="preserve">
+    <value>Neuen Techniker anlegen</value>
+  </data>
+  <data name="addSomething" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="newContact" xml:space="preserve">
+    <value>Neuer Kontakt</value>
+  </data>
+  <data name="editContact" xml:space="preserve">
+    <value>Kontakt bearbeiten</value>
+  </data>
+  <data name="newContactLong" xml:space="preserve">
+    <value>Neuen Kontakt anlegen</value>
+  </data>
+  <data name="change" xml:space="preserve">
+    <value>Ändern</value>
+  </data>
+  <data name="newItem" xml:space="preserve">
+    <value>Neu</value>
+  </data>
+  <data name="saveErrorTitle" xml:space="preserve">
+    <value>Fehler beim Speichern</value>
+  </data>
+  <data name="saveErrorMessage" xml:space="preserve">
+    <value>Bitte überprüfen Sie die eingegebenen Werte. Ihre Daten konnten nicht gespeichert werden.</value>
+  </data>
+  <data name="addCustomer" xml:space="preserve">
+    <value>Kunde anlegen</value>
+  </data>
+  <data name="editCustomer" xml:space="preserve">
+    <value>Kunde bearbeiten</value>
+  </data>
+  <data name="nameOfCustomer" xml:space="preserve">
+    <value>Name des Kunden:</value>
+  </data>
+  <data name="addCustomerLong" xml:space="preserve">
+    <value>Neuen Kunden anlegen</value>
+  </data>
+  <data name="addObjectForCustomer" xml:space="preserve">
+    <value>Objekt erstellen für {0}</value>
+    <comment>{0} - name of customer</comment>
+  </data>
+  <data name="editObjectForCustomer" xml:space="preserve">
+    <value>Objekt bearbeiten für {0}</value>
+    <comment>{0} - name of customer</comment>
+  </data>
+  <data name="nameOfObject" xml:space="preserve">
+    <value>Name des Objektes:</value>
+  </data>
+  <data name="newObject" xml:space="preserve">
+    <value>Neues Objekt</value>
+  </data>
+  <data name="editObject" xml:space="preserve">
+    <value>Objekt bearbeiten</value>
+  </data>
+  <data name="createObject" xml:space="preserve">
+    <value>Objekt erstellen</value>
+  </data>
+  <data name="addAddressForCustomer" xml:space="preserve">
+    <value>Adresse erstellen für {0}</value>
+    <comment>{0} - name of customer</comment>
+  </data>
+  <data name="editAdressForCustomer" xml:space="preserve">
+    <value>Adresse bearbeiten für {0}</value>
+    <comment>{0} - name of customer</comment>
+  </data>
+  <data name="address" xml:space="preserve">
+    <value>Adresse:</value>
+  </data>
+  <data name="newAddress" xml:space="preserve">
+    <value>Neue Adresse</value>
+  </data>
+  <data name="editAddress" xml:space="preserve">
+    <value>Adresse bearbeiten</value>
+  </data>
+  <data name="createAddress" xml:space="preserve">
+    <value>Adresse erstellen</value>
+  </data>
+  <data name="duplicateEntryErrorTitle" xml:space="preserve">
+    <value>Eintrag existiert bereits</value>
+  </data>
+  <data name="duplicateEntryErrorMsg" xml:space="preserve">
+    <value>Es ist bereits eine Eintrag mit dem Namen "{0}" vorhanden.
+Der Name muss eindeutig sein.
+
+Bitte ändern Sie den Namen oder brechen Sie den Vorgang ab.</value>
+    <comment>{0} - name of entry</comment>
+  </data>
+  <data name="searchTransmitterWithSerialMsg" xml:space="preserve">
+    <value>Bitte geben Sie eine Seriennummer ein, zu der ein Sender gefunden werden soll:</value>
+  </data>
+  <data name="searchTransmitterWithSerialTitle" xml:space="preserve">
+    <value>Sender suchen anhand einer Seriennummer</value>
+  </data>
+  <data name="virtualSerialFileFilter" xml:space="preserve">
+    <value>Tedsen Virtuelle Seriennummern(*.vsnr)|*.vsnr|Alle Dateien(*.*)|*.*</value>
+  </data>
+  <data name="importVirtualSerrialsFailedMsg" xml:space="preserve">
+    <value>Bitte entschuldigen Sie, die Datei {0} liegt in einer nicht unterstützten Version vor. \nBitte überprüfen Sie, ob Sie die aktuelle Version von TVSPro verwenden und ob Sie die richtige Datei gewählt haben.\nWenn der Fehler fortbesteht, wenden Sie sich bitte an den Hersteller.</value>
+    <comment>{0} - filename of virtual serial file</comment>
+  </data>
+  <data name="importVirtualSerialFileFailedTitle" xml:space="preserve">
+    <value>Fehler beim Einlesen Virtueller Seriennummern</value>
+  </data>
+  <data name="importVirtualSerialFileRangeExceededMsg" xml:space="preserve">
+    <value>Bitte entschuldigen Sie, beim Einlesen von Seriennummern aus der Datei
+ {0}
+ ist ein Fehler aufgetreten.
+Der Gültigkeitsbereich wurde überschritten.
+Bitte wenden Sie Sich mit dieser Datei an den Hersteller und beantragen Sie eine neue Datei.</value>
+    <comment>{0} - filename of virtual serial file</comment>
+  </data>
+  <data name="importVirtualSerialFileRangeExceededTitle" xml:space="preserve">
+    <value>Ungültige Virtuelle Seriennummern</value>
+  </data>
+  <data name="duplicateVirtualSerialError" xml:space="preserve">
+    <value>
+{0} Seriennummern waren bereits im System vorhanden.</value>
+    <comment>{0} - duplicate virtual serial number</comment>
+  </data>
+  <data name="createdVirtualSerialCount" xml:space="preserve">
+    <value>Es wurden {0} virtuelle Seriennummern neu angelegt.</value>
+    <comment>{0} - count of added virtual serials</comment>
+  </data>
+  <data name="importVirtualSerialTitle" xml:space="preserve">
+    <value>Import Virtueller Seriennummern</value>
+  </data>
+  <data name="importVirtualSerialFileFailedMsg" xml:space="preserve">
+    <value>Leider ist beim Einlesen virtueller Seriennummern aus der Datei {0}
+ein Fehler aufgetreten. Wir bitten Sie, dies zu entschuldigen.
+Bitte überprüfen Sie, ob Sie die richtige Datei gewählt haben.
+Sollte das Problem fortbestehen, wenden Sie sich bitte an den Hersteller.</value>
+  </data>
+  <data name="deleteTransmitterQuestion" xml:space="preserve">
+    <value>Drücken Sie Ja, wenn Sie den Sender komplett löschen möchten.
+Drücken Sie Nein, wenn Sie nur die Zuordnung zum Empfänger {0} löschen möchten.</value>
+    <comment>{0} - name of transmitter</comment>
+  </data>
+  <data name="deleteTransmitterTitle" xml:space="preserve">
+    <value>Löschen von Sendern</value>
+  </data>
+  <data name="todayStr" xml:space="preserve">
+    <value>Heute</value>
+  </data>
+  <data name="yesterdayStr" xml:space="preserve">
+    <value>Gestern</value>
+  </data>
+  <data name="tomorrowStr" xml:space="preserve">
+    <value>Morgen</value>
+  </data>
+  <data name="pmgtiCannotRespond" xml:space="preserve">
+    <value>Das Programmiergerät kann die Anfrage nicht bearbeiten.</value>
+  </data>
+  <data name="pmgtiState" xml:space="preserve">
+    <value>Status: {0}</value>
+    <comment>{0} - status name</comment>
+  </data>
+  <data name="pmgtiCommunicationErrorMsg" xml:space="preserve">
+    <value>Bei der Kommunikation mit dem Programmiergerät ist ein Fehler aufgetreten: 
+{0}</value>
+    <comment>{0} - error message</comment>
+  </data>
+  <data name="pmgtiCommunicationErrorTitle" xml:space="preserve">
+    <value>Fehler beim Lesen oder Schreiben auf Sender</value>
+  </data>
+  <data name="virtualSerialNotInRange" xml:space="preserve">
+    <value>Die einzufügenden Seriennummern müssen Zahlen zwischen zwischen 1 und {0} sein.
+Ihre Auswahl liegt nicht in diesem Bereich.
+Bitte korrigieren Sie Ihre Eingabe.</value>
+    <comment>[0} - max of range</comment>
+  </data>
+  <data name="invalidInput" xml:space="preserve">
+    <value>Ungültige Eingabe</value>
+  </data>
+  <data name="noneStr" xml:space="preserve">
+    <value>keine</value>
+  </data>
+  <data name="onlyCountStr" xml:space="preserve">
+    <value>nur {0}</value>
+  </data>
+  <data name="notEnoughVirtualSerialsMsg" xml:space="preserve">
+    <value>In dem von Ihnen gewählten Zahlenbereich virtueller Seriennummern {0} bis {1} sind in Ihrem Bestand {2} Nummern verfügbar.</value>
+    <comment>{0} - min of range, {1} - max of range, {2} - count of remaining virtualserials</comment>
+  </data>
+  <data name="notEnoughVirtualSerialsTitle" xml:space="preserve">
+    <value>Virtuelle Seriennummern nur zum Teil verfügbar.</value>
+  </data>
+  <data name="newReceiver" xml:space="preserve">
+    <value>Neuer Empfänger</value>
+  </data>
+  <data name="editReceiver" xml:space="preserve">
+    <value>Empfänger bearbeiten</value>
+  </data>
+  <data name="addReceiverLong" xml:space="preserve">
+    <value>Neuen Empfänger anlegen</value>
+  </data>
+  <data name="uncoughtEceptionMsg" xml:space="preserve">
+    <value>Bei der Ausführung ist ein Fehler aufgetreten.
+Wir bitten Sie, dies zu entschuldigen.
+
+Sollte der Fehler weiter fortbestehen, wenden Sie sich bitte an den Hersteller.
+
+Details:
+{0}</value>
+    <comment>{0} - errormessage</comment>
+  </data>
+  <data name="uncoughtExceptionTitle" xml:space="preserve">
+    <value>Anwendungsfehler</value>
+  </data>
+  <data name="transmitterForReceiver" xml:space="preserve">
+    <value>Sender für Empfänger {0}</value>
+    <comment>{0} - receiver name</comment>
+  </data>
+  <data name="transmitterStr" xml:space="preserve">
+    <value>Sender</value>
+  </data>
+</root>

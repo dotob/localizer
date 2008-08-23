@@ -24,14 +24,14 @@
                 <MenuItem Header="_Beenden" Command="ApplicationCommands.Close">
                 </MenuItem>
             </MenuItem>
-            <MenuItem Header="_Bearbeiten">
+            <!--<MenuItem Header="_Bearbeiten">
             </MenuItem>
             <MenuItem Header="E_xtras">
                 <MenuItem Header="_Einstellungen..."/>
             </MenuItem>
             <MenuItem Header="_?">
                 <MenuItem Header="_Hilfe"/>
-            </MenuItem>
+            </MenuItem>-->
         </Menu>
 
         <TabControl x:Name="translatetabs" Grid.Row="1">
